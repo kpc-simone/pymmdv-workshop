@@ -25,22 +25,22 @@ python demo.py
 ```
 
 # Setup instructions (with visuals)
-- Open the Anaconda Navigator and launch the Powershell prompt
+- Open the Anaconda Navigator 
+
+![](https://github.com/kpc-simone/pymmdv-workshop/blob/main/docs/anaconda.png)
+
+- Launch the Powershell prompt from inside Anaconda
 
 ![](https://github.com/kpc-simone/pymmdv-workshop/blob/main/docs/select_powershell.png)
 
 - use `cd` to navigate into the extracted `pymmdv-workshop-main` folder. Depending on how the files were extracted, pymmdv-workshop-main may be nested within a folder of the same name. Use the `ls` command to list the files in your working directory as below
 
 ![](https://github.com/kpc-simone/pymmdv-workshop/blob/main/docs/folder_navigation.png)
-- then create a new configured environment:
+- Create a new configured environment:
 
-	```
-	conda create --name pymmdv-workshop
-	activate pymmdv-workshop
-	pip install -r requirements.txt
-	```
+![](https://github.com/kpc-simone/pymmdv-workshop/blob/main/docs/environment_config.png)
 
-To test installation, run the `demo.py` script from the command line
+- To test installation, run the `demo.py` script from the command line
 
 ```
 python demo.py

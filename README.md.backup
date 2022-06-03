@@ -10,7 +10,7 @@ Python scripts for common behavioral and calcium imaging visualization tasks (ex
 # Quick setup
 - Launch the Powershell prompt from Anaconda Navigator
 - Navigate into the extracted `pymmdv-workshop-main` folder
-- Create a new configured environment
+- Create a new configured environment:
 
 	```
 	conda create --name pymmdv-workshop
@@ -25,7 +25,11 @@ python demo.py
 ```
 
 # Setup instructions (with visuals)
-- Open the Anaconda Navigator and launch the Powershell prompt
+- Open the Anaconda Navigator 
+
+![](https://github.com/kpc-simone/pymmdv-workshop/blob/main/docs/anaconda.png)
+
+- Launch the Powershell prompt from inside Anaconda
 
 ![](https://github.com/kpc-simone/pymmdv-workshop/blob/main/docs/select_powershell.png)
 
