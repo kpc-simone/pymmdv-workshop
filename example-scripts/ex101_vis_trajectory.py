@@ -14,12 +14,14 @@ def plot_trajectory(ax,trdf_filepath,window,arena_dims=None):
     seg_df = trdf.iloc[idx0:idx1,:].reset_index(drop=True)
     
     # plot the trajectory over the time window
-    ax.plot(seg_df['ypos'],seg_df['xpos'],color='dimgray')
-    ax.plot(seg_df['ypos'].iloc[0],seg_df['xpos'].iloc[0],marker='o',color='k')
+    ax.plot(seg_df['xpos'],seg_df['ypos'],color='dimgray')
+    ax.plot(seg_df['xpos'].iloc[0],seg_df['ypos'].iloc[0],marker='o',color='k')
     
     if arena_dims:
         ax.set_xlim(0,arena_dims[0])
         ax.set_ylim(0,arena_dims[1])
+        ax.set_xlabel('x-position, (mm)')
+        ax.set_ylabel('y-position, (mm)')
 
 if __name__ == '__main__':
     # looks nice for animal-3
@@ -33,7 +35,7 @@ if __name__ == '__main__':
     arena_dims = [410,190]
     
     # create figure and visualize the data
-    plt.style.use('multipanel_style.mplstyle')
+    plt.style.use('../multipanel_style.mplstyle')
     fig,ax = plt.subplots(1,1)
     plot_trajectory(ax, trdf_filepath, window=window, arena_dims = arena_dims)
     plt.show()

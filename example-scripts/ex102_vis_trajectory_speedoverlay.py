@@ -32,6 +32,8 @@ def plot_trajectory_speedoverlay(ax,trdf_filepath,window,arena_dims,cmap='infern
     if arena_dims:
         ax.set_xlim(0,arena_dims[0])
         ax.set_ylim(0,arena_dims[1])
+        ax.set_xlabel('x-position, (mm)')
+        ax.set_ylabel('y-position, (mm)')
 
 # demo
 if __name__ == '__main__':

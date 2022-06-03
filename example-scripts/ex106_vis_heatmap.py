@@ -44,7 +44,7 @@ def show_heatmap(ax,sudf_filepath,segment_0,segment_1,display_interval,cmap='inf
     ax.set_xticks( xticks )
     ax.set_xticklabels( xticklabels )
     ax.set_ylabel(r'Cells$\to$')
-    ax.set_xlabel('Time (s) from transition')
+    ax.set_xlabel('Time (s) from onset of experimental condition')
         
 if __name__ == '__main__':
     
@@ -58,7 +58,7 @@ if __name__ == '__main__':
     display_interval = [240,420]
     
     # create figure and visualize the data
-    plt.style.use('multipanel_style.mplstyle')
+    plt.style.use('../multipanel_style.mplstyle')
     fig,ax = plt.subplots(1,1)
     show_heatmap(ax,sudf_filepath,
                         segment_0 = segment_0,

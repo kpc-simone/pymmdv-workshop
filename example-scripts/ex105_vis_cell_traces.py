@@ -45,6 +45,8 @@ def plot_cell_traces(ax,sudf_filepath,sort_interval,key_times):
     
 if __name__ == '__main__':
     
+    # animal-3 looks nice
+    
     # specify inputs to function
     sudf_filepath = askopenfilename(
                         title='Select traces .csv file to visualize',
@@ -59,4 +61,5 @@ if __name__ == '__main__':
     plot_cell_traces(ax,sudf_filepath,
                         sort_interval = sort_interval,
                         key_times = key_times)
+    fig.tight_layout()
     plt.show()
