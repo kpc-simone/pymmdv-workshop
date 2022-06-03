@@ -7,6 +7,7 @@ import sys,os
 sys.path.append(os.path.join(os.path.dirname(__file__),'example-scripts'))
 from ex02_vis_trajectory_speedoverlay import plot_trajectory_speedoverlay
 from ex04_vis_running_bouts import plot_running_bouts
+from ex09_vis_cell_traces import plot_cell_traces
 from ex11_vis_heatmap import show_heatmap
 from ex13_vis_epoch_scatter import plot_epoch_scatter
 from ex15_vis_pca_segments import plot_pca_segments
@@ -30,6 +31,14 @@ plot_running_bouts(axes[0,1],
                     speed_thresh = 50.0,
                     min_bout_duration = 0.5,
                     )
+
+# all cell traces in a recording sorted by time of peak within a given interval
+sudf_filepath = os.path.join(os.path.dirname(__file__),'example-data/animal3-calcium.csv')
+plot_cell_traces(axes[1,0],
+                sudf_filepath,
+                sort_interval = (210,218),
+                key_times = (210,218,290,298,360,368,600,608,900,908),
+                )
 
 # heatmap of calcium traces from a single recording
 sudf_filepath = os.path.join(os.path.dirname(__file__),'example-data/animal1-calcium.csv')
