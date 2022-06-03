@@ -1,4 +1,4 @@
-# dmbs-tracking
+# pymmdv-workshop
 A collection of scripts for visualizing behavioral and calcium imaging dara
 
 ![](https://github.com/kpc-simone/pymmdv-workshop/blob/main/demo_fig.png)
