@@ -1,13 +1,18 @@
 # pymmdv-workshop
-A collection of scripts for visualizing behavioral and calcium imaging dara
+Python scripts for common behavioral and calcium imaging visualization tasks (example data included)
 
 ![](https://github.com/kpc-simone/pymmdv-workshop/blob/main/demo_fig.png)
 
-# Requirements
+# Requirements and installation
 - [Anaconda](https://www.anaconda.com/) 
-- Open the Anaconda Navigator and launch Powershell
-- Download and extract the code from this repo
-- use `cd` to navigate into the `pymmdv-workshop` folder, then create a new configured environment:
+- Download the code from this repository and extract to a local folder on your computer
+
+# Installation
+- Open the Anaconda Navigator and launch the Powershell prompt
+![](https://github.com/kpc-simone/pymmdv-workshop/blob/main/docs/select_powershell.png)
+- use `cd` to navigate into the extracted `pymmdv-workshop-main` folder. You may need to 
+![](https://github.com/kpc-simone/pymmdv-workshop/blob/main/docs/folder_navigation.png)
+- then create a new configured environment:
 
 	```
 	conda create --name pymmdv-workshop
