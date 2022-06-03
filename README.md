@@ -1,7 +1,7 @@
 # dmbs-tracking
 A collection of scripts for visualizing behavioral and calcium imaging dara
 
-![](https://github.com/kpc-simone/dmbs-tracking/blob/main/docs/dmbs_tracking_demo.gif)
+![](https://github.com/kpc-simone/pymmdv-workshop/blob/main/demo_fig.png)
 
 # Requirements
 - [Anaconda](https://www.anaconda.com/) 

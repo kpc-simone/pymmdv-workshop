@@ -20,5 +20,5 @@ A collection of scripts for visualizing behavioral and calcium imaging dara
 To test installation, run the `demo.py` script from the command line
 
 ```
-python d
+python demo.py
 ```
