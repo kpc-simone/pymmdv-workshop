@@ -1,2 +1,0 @@
-always look at the data before you plot
-'depends on what's in your data'
