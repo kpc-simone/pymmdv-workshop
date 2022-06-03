@@ -9,8 +9,11 @@ Python scripts for common behavioral and calcium imaging visualization tasks (ex
 
 # Installation
 - Open the Anaconda Navigator and launch the Powershell prompt
+
 ![](https://github.com/kpc-simone/pymmdv-workshop/blob/main/docs/select_powershell.png)
-- use `cd` to navigate into the extracted `pymmdv-workshop-main` folder. You may need to 
+- use `cd` to navigate into the extracted `pymmdv-workshop-main` folder. Depending on how the files were extracted, pymmdv-workshop-main may be nested within a folder of the same name. Use the `ls` command to list the files in your working directory as below
+
+
 ![](https://github.com/kpc-simone/pymmdv-workshop/blob/main/docs/folder_navigation.png)
 - then create a new configured environment:
 
